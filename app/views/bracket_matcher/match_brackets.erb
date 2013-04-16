@@ -1,0 +1,12 @@
+<h2>You entered: <%= @str %></h2>
+
+<% if @res %>
+	<h3>Yay!  Your brackets match!</h3>
+	
+<% else %>
+	<h3>Your brackets do not match.  Please try again.</h3>
+	
+<% end %>
+
+
+<%= link_to 'Back', '/'  %>
